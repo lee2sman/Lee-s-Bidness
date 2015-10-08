@@ -18,6 +18,5 @@ void setup() {
   
   fill(50);     //font color
   text(s, 420, 480, 195, 80);  // Text wraps within text box, last 2 are bottomRight of rect()
-println(mouseX,mouseY);
  
 }
