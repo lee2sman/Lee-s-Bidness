@@ -3,7 +3,8 @@ PFont fontChoice;
 
 void setup() {
   size(1024,768);
-  frameRate(1);
+  textAlign(CENTER);
+  
   String lines[] = loadStrings("businesses.txt");
 
    fontChoice = createFont("leaguespartan-bold.ttf", 18);
